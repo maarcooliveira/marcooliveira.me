@@ -5,8 +5,11 @@ $(document).ready(function() {
   $("#taskTrigger").animatedModal({color: '#ffffff', modalTarget: 'taskModal'});
   $("#nextexTrigger").animatedModal({color: '#ffffff', modalTarget: 'nextexModal'});
   $("#heatmappTrigger").animatedModal({color: '#ffffff', modalTarget: 'heatmappModal'});
+  $("#passeiTrigger").animatedModal({color: '#ffffff', modalTarget: 'passeiModal'});
+  $("#sbuyTrigger").animatedModal({color: '#ffffff', modalTarget: 'sbuyModal'});
   $("#wntTrigger").animatedModal({color: '#ffffff', modalTarget: 'wntModal'});
   $("#imdbTrigger").animatedModal({color: '#ffffff', modalTarget: 'imdbModal'});
+
 
   // Navbar links
   var sections = [];
