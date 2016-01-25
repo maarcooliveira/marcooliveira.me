@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
+a {
+	@include transition(all, 0.3s);
+}
+
+footer {
+	height: 60px;
+	line-height: 60px;
+	background-color: $footer-background;
+	color: $color-text-light;
+	a {
+		color: $color-text-light;
+	}
+}
+
+.nav-icon {
+	width: 50px;
+	height: 50px;
+	margin: 7px;
+}
+
+.full-width {
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+
+.full-height {
+	min-height: calc(100vh - 64px);
+	padding-top: 40px;
+}
+
+.upper{
+	text-transform: uppercase !important;
+}
+
+.modal-banner {
+	margin-bottom: 10px;
+}
+
+.modal-banner:hover {
+	cursor: pointer;
+}
+
+.edu-image {
+	height: 200px;
+	padding: 20px;
+}
+
+.center {
+	@include display-flex();
+	@include flex-direction(column);
+	@include justify-content(center);
+}
+
+#intro {
+	background-color: $intro-background;
+	h2, p {
+		color: $color-text-dark;
+	}
+	a {
+		color: $color-social-links;
+		font-size: 1.2em;
+	}
+	a:hover {
+		color: $color-text-dark;
+	}
+}
+
+#education {
+	overflow: hidden;
+	background: url("../data/banners/siebel.jpg") no-repeat fixed;
+	@include background-size(cover);
+	// background-color: $color-social-links;
+	h1, h3, p {
+		color: $color-text-light;
+	}
+}
+
+#experience {
+	background-color: $experience-background;
+	h1, p {
+		color: $color-text-dark;
+	}
+}
+
+#projects {
+	background-color: $projects-background;
+}
+
+#profile-picture {
+	width: 200px;
+	margin-bottom: 20px;
+	@include border-radius(50%);
+}
+
+.modal-close-ic {
+	@include transition(all, 0.5s);
+}
+
+.modal-close-ic:hover {
+	cursor: pointer;
+	color: $color-social-links;
+}
+
+.link-light {
+	color: $color-text-light;
+	@include transition(all, 0.3s);
+}
+
+.link-light:hover {
+	color: $color-text-light;
+	font-weight: bolder;
+}
+
+.filter:hover {
+	cursor: pointer;
+}
+
+.inactive {
+	@include transition(all, 0.3s);
+	color: $color-inactive;
+}

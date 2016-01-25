@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marco Oliveira</title>
+	<link rel="icon" href="./data/banners/icon.png">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./foundation/css/foundation.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+
+	<div class="fixed">
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+			<li class="name show-for-large-up">
+				<h1><a href="#">Marco Oliveira</a></h1>
+			</li>
+			<li class="name show-for-medium">
+				<img class="nav-icon" src="./data/banners/icon.png">
+			</li>
+			<li class="name show-for-small">
+				<img class="nav-icon" src="./data/banners/icon.png">
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+			</ul>
+
+			<section class="top-bar-section">
+			<ul class="right">
+				<li><a href="#intro" class="upper inner-nav">Intro</a></li>
+				<li><a href="#education" class="upper inner-nav">Edu</a></li>
+				<li><a href="#experience" class="upper inner-nav">Experience</a></li>
+				<li><a href="#projects" class="upper inner-nav">Projects</a></li>
+			</ul>
+			</section>
+		</nav>
+	</div>
+
+	<main>
+
+		<section id="intro" class="full-width full-height center">
+			<div class="row">
+				<div class="columns small-12 large-12 text-center">
+					<img id="profile-picture" class="circular-image" src="./data/banners/profile.jpg">
+					<h2>Hey, I'm Marco!</h2>
+					<br>
+					<p>Here you can explore my adventures in the CS world <br> and also get to know more about me.</p>
+					<br><br>
+					<div class="columns small-2 small-offset-1">
+						<a href="http://twitter.com/maarcooliveira" target="_blank"><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+					</div>
+					<div class="columns small-2">
+						<a href="http://fb.me/maarcooliveira" target="_blank"><i class="fa fa-facebook-official fa-2x fa-fw"></i></a>
+					</div>
+					<div class="columns small-2">
+						<a href="https://github.com/maarcooliveira" target="_blank"><i class="fa fa-github fa-2x fa-fw"></i></a>
+					</div>
+					<div class="columns small-2">
+						<a href="https://www.linkedin.com/in/maarcooliveira/en" target="_blank"><i class="fa fa-linkedin fa-2x fa-fw "></i></a>
+					</div>
+					<div class="columns small-2 end">
+						<a href="mailto:oliveira.marco.andre@gmail.com" target="_blank" class=""><i class="fa fa-envelope fa-2x fa-fw"></i></a>
+					</div>
+					<!-- <div class="columns small-2">
+						<a href="https://medium.com/@maarcooliveira" target="_blank"><i class="fa fa-medium fa-2x fa-fw"></i></a>
+					</div> -->
+				</div>
+			</div>
+			<br>
+		</section>
+
+		<section id="education" class="full-width full-height">
+			<div class="row">
+				<h1 class="text-center upper">Education</h1>
+				<p class="text-center">This is my academic life</p>
+
+				<div class="columns small-12 medium-6 text-center">
+					<img class="edu-image" src="./data/banners/ufscar-logo.png">
+					<h3>Universidade Federal de Sao Carlos <br>Campus Sorocaba</h3><br>
+					<p class="text-justify">Studying Computer Science since 2012, this is my last year at UFSCar. If everything goes as planned, I'll receive my B.S. in december 2016.</p>
+				</div>
+
+				<div class="columns small-12 medium-6 text-center">
+					<img class="edu-image" src="./data/banners/uiuc-logo.png">
+					<h3>University of Illinois at Urbana-Champaign</h3><br>
+					<p class="text-justify">Hail to the orange, hail to the blue! I studied at UIUC for a year (fall 2014 and spring 2015), receiving a fully-funded scholarship through the Brazil Scientific Mobility Program.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="experience" class="full-width full-height">
+			<div class="row">
+				<h1 class="text-center upper">Experience</h1>
+				<p class="text-center">Places I've worked</p>
+
+				<div class="columns small-12 medium-6 text-center">
+					<img class="edu-image" src="./data/banners/iit-logo.png">
+					<h3>Illinois Institute of Technology</h3><h5>June - July 2015</h5><br>
+					<p class="text-justify">Undergraduate researcher in the project "Computer System Support for Hospital Emergency Room". This was an internship part of the BSMP program. Advisor: Dr. Shangping Ren, CODE research group at IIT.</p>
+				</div>
+
+				<div class="columns small-12 medium-6 text-center">
+					<img class="edu-image" src="./data/banners/cnpq-logo.png">
+					<h3>CNPq / UFSCar Sorocaba</h3><h5>Janeiro 2013 - Julho 2014</h5><br>
+					<p class="text-justify">Undergraduate researcher with scholarship by CNPq in the project "An NFC Middleware to Support the Internet of Things". Advisor: Dr. Alexandre Alvaro, Laboratory of Studies in Networks, Innovation and Software research lab at UFSCar.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="projects" class="full-width full-height">
+			<div class="row">
+				<h1 class="text-center upper">Projects</h1>
+				<p class="text-center">This is what I'm up to lately</p>
+				<br>
+				<div class="text-center row show-for-medium-up">
+					<h5 id="f-android" class="columns medium-4 filter" onclick="switchFilter('android')"><i class="fa fa-android"> </i> Android</h5>
+					<h5 id="f-web" class="columns medium-4 filter" onclick="switchFilter('web')"><i class="fa fa-laptop"> </i> Web</h5>
+					<h5 id="f-responsive" class="columns medium-4 filter" onclick="switchFilter('responsive')"><i class="fa fa-mobile"> </i> Web/Responsive</h5>
+				</div>
+				<br><br>
+
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="greenmapTrigger" href="#greenmapModal"><i class="fa fa-globe fa-5x responsive"></i>
+					<h4>Urbana Green Map</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="artistfinderTrigger" href="#artistfinderModal"><i class="fa fa-headphones fa-5x responsive"></i>
+					<h4>Artist Finder</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="weatherTrigger" href="#weatherModal"><i class="fa fa-bolt fa-5x android"></i>
+					<h4>Android Weather</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="taskTrigger" href="#taskModal"><i class="fa fa-tasks fa-5x web"></i>
+					<h4>[Awesome] Task Manager</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="nextexTrigger" href="#nextexModal"><i class="fa fa-check-square-o fa-5x android responsive research"></i>
+					<h4>NextEx Examination Tool</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="heatmappTrigger" href="#heatmappModal"><i class="fa fa-map-marker fa-5x android"></i>
+					<h4>Heat Mapp</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 text-center">
+					<a id="wntTrigger" href="#wntModal"><i class="fa fa-television fa-5x web"></i>
+					<h4>Watch and Track</h4></a><br><br>
+				</div>
+				<div class="columns small-12 medium-6 large-3 end text-center">
+					<a id="imdbTrigger" href="#imdbModal"><i class="fa fa-film fa-5x web"></i>
+					<h4>IMDB Top 250</h4></a><br><br>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="text-center">
+			<i class="fa fa-code fa-lg"></i> by Marco Oliveira. &nbsp;&nbsp;<i class="fa fa-language fa-lg"> </i> <a href="index.html?r=false"> pt-BR</a>
+		</footer>
+
+
+		<div id="greenmapModal">
+			<div class="close-greenmapModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>Urbana Green Map</h2><br>
+				<p>In a Learning in Community class at UIUC, in partnership with the city of Urbana, IL, we developed a Green Map (map containing all the environmentally friendly infrastructure available in the city) and also a mobile application to help the students in the address gathering process.</p>
+				<img src="./data/banners/green-map.png" alt="Imagem do mapa desenvolvido" class="show-for-medium-up"/>
+				<br><br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>HTML/CSS</li>
+					<li>Web Starter Kit</li>
+					<li>Google Maps JavaScript API</li>
+					<li>Android development</li>
+					<li>Google Maps Android API</li>
+				</ul>
+				<div class="row">
+					<p><a href="https://guarded-castle-6498.herokuapp.com/index.html" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3">See the project</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="artistfinderModal">
+			<div class="close-artistfinderModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>Artist Finder</h2><br>
+				<p>Final project in my web programming class at UIUC. Artist Finder is a database for artists and bands, being a place where people can find links to all verified social networks of these artistis, links to streaming services and their official website.</p>
+				<br>
+				<h4>Awards</h4>
+				<ul>
+					<li>Best presentation video - CS 498RK Fall 2015 - University of Illinois</li>
+				</ul>
+				<br>
+				<img src="./data/banners/afinder-1.png" alt="" class="show-for-medium-up"/>
+				<div class="row show-for-medium-up">
+					<br>
+					<img src="./data/banners/afinder-2.png" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/afinder-3.png" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/afinder-4.png" alt="" class="columns small-12 medium-4"/>
+				</div>
+
+				<h4>What I worked with</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS/SASS</li>
+					<li>JavaScript/jQuery</li>
+					<li>MEAN stack</li>
+					<li>Materialize.css</li>
+				</ul>
+				<div class="row">
+					<a href="http://marcooliveira.me/projects/artistfinder" target="_blank" class="button radius columns small-12 medium-4 medium-offset-1"> Artist Finder</a>
+					<a href="https://github.com/maarcooliveira/artistfinder-web" target="_blank" class="button radius columns small-12 medium-4 medium-offset-2"><i class="fa fa-github fa-lg"></i> Source Code</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="weatherModal">
+			<div class="close-weatherModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>Weather App</h2><br>
+				<p>A simple Android Weather application that I developed during an internship position process as Android developer. The purpose of this app was to follow the main guidelines of Google's Material Design. Weather data taken using OpenWeatherMap API.</p>
+
+				<div class="row show-for-medium-up">
+					<br>
+					<img src="./data/banners/weather-1.png" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/weather-2.png" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/weather-3.png" alt="" class="columns small-12 medium-4"/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>Android</li>
+					<li>Material Design guidelines</li>
+					<li>OpenWeatherMap API</li>
+					<li>JSON parsing</li>
+				</ul>
+				<div class="row">
+					<p><a href="https://github.com/maarcooliveira/Weather" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"><i class="fa fa-github fa-lg"></i> Source Code</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="taskModal">
+			<div class="close-taskModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>[Kind of] Awesome Task Manager</h2><br>
+				<p>A web task manager application developed as an MP for my web programming class. Based in the MEAN stack, I developed an API and the web app to consume it.</p>
+				<div class="show-for-medium-up">
+					<br>
+					<img src="./data/banners/task-1.png" alt=""/>
+					<img src="./data/banners/task-2.png" alt=""/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS/SASS</li>
+					<li>JavaScript/jQuery</li>
+					<li>Foundation by Zurb</li>
+					<li>NoSQL/MongoDB</li>
+					<li>Angular.js</li>
+					<li>Express</li>
+					<li>Node.js</li>
+				</ul>
+				<div class="row">
+					<p><a href="http://marcooliveira.me/projects/taskmanager" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"> Awesome Task Manager</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="nextexModal">
+			<div class="close-nextexModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>NextEx</h2><br>
+				<p>Part of my second non-credit research/development activity at UFSCar, NextEx is a tool developed to assess students using mind maps. It is being developed since august/2015 and includes web development with PHP, database modeling, application of UX concepts and development of an Android application.</p>
+				<div class="show-for-medium-up">
+					<br>
+					<img src="./data/banners/nextex-1.png" alt=""/>
+					<img src="./data/banners/nextex-2.png" alt=""/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS/Foundation</li>
+					<li>JavaScript/jQuery</li>
+					<li>PHP</li>
+					<li>Android development</li>
+				</ul>
+				<div class="row">
+					<p><a href="https://github.com/maarcooliveira/projeto-unesp" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"><i class="fa fa-github fa-lg"></i> Github repo</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="heatmappModal">
+			<div class="close-heatmappModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>HeatMapp</h2><br>
+				<p>Android application developed as a final project for my User Interface Design class at UIUC, in a group with three more students, all focusing only in the app interface. The idea of this app is to gather the location of the users and show it anonymously in a map, so other users can have an idea about how crowded a place is. It is also supposed show pictures taken in the most crowded places around the campus.</p>
+				<div class="row show-for-medium-up">
+					<br>
+					<img src="./data/banners/heatmapp-1.jpg" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/heatmapp-2.jpg" alt="" class="columns small-12 medium-4"/>
+					<img src="./data/banners/heatmapp-3.jpg" alt="" class="columns small-12 medium-4"/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>Android</li>
+					<li>UX and UI prototyping</li>
+				</ul>
+				<div class="row">
+					<p><a href="https://github.com/maarcooliveira/HeatMapp" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"><i class="fa fa-github fa-lg"></i> Github repo</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="wntModal">
+			<div class="close-wntModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>Watch and Track</h2><br>
+				<p>Google Chrome extension developed as a final project for my Programming Studio class. It is an automatic tracker that identifies what a user is watching on Netflix and automatically checkin the movie or show in Trakt.tv. Since the Trakt.tv API has changed recently, the extension needs a few adjustments to work again.</p>
+				<div class="show-for-medium-up">
+					<br>
+					<img src="./data/banners/wnt-1.png" alt=""/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>Google Chrome extensions API</li>
+					<li>JavaScript</li>
+					<li>HTML/CSS</li>
+				</ul>
+				<div class="row">
+					<p><a href="https://github.com/maarcooliveira/watch-n-track" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"><i class="fa fa-github fa-lg"></i> Github repo</a></p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="imdbModal">
+			<div class="close-imdbModal text-center">
+				<br>
+					<i class="fa fa-times-circle fa-3x modal-close-ic"></i>
+				<br><br><br>
+			</div>
+
+			<div class="modal-content columns small-10 small-offset-1">
+				<h2>IMDB Top 250</h2><br>
+				<p>A web app that shows the 250 IMDB top movies. Developed with Angular.js, the app allows to search and filter movies in a list and gallery view.</p>
+				<div class="show-for-medium-up">
+					<br>
+					<img src="./data/banners/imdb-1.png" alt=""/>
+					<img src="./data/banners/imdb-2.png" alt=""/>
+					<img src="./data/banners/imdb-3.png" alt=""/>
+				</div>
+				<br>
+				<h4>What I worked with</h4>
+				<ul>
+					<li>HTML</li>
+					<li>CSS/SASS</li>
+					<li>JavaScript/jQuery</li>
+					<li>Foundation by Zurb</li>
+					<li>Angular.js</li>
+				</ul>
+				<div class="row">
+					<p><a href="http://marcooliveira.me/projects/imdb" target="_blank" class="button radius columns small-12 medium-6 medium-offset-3"> IMDB Top 250</a></p>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<script src="./lib/jquery-2.1.3.min/index.js"></script>
+	<script src="./js/animatedModal.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./foundation/js/foundation.min.js"></script>
+	<script src="./foundation/js/foundation/foundation.topbar.js"></script>
+	<script src="http://localhost:35729/livereload.js"></script>
+	<script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-48088392-2', 'auto');
+     ga('require', 'displayfeatures');
+     ga('send', 'pageview');
+
+   </script>
+</body>
+</html>
