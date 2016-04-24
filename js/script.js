@@ -9,6 +9,7 @@ $(document).ready(function() {
   $("#sbuyTrigger").animatedModal({color: '#ffffff', modalTarget: 'sbuyModal'});
   $("#wntTrigger").animatedModal({color: '#ffffff', modalTarget: 'wntModal'});
   $("#imdbTrigger").animatedModal({color: '#ffffff', modalTarget: 'imdbModal'});
+  $("#c2yTrigger").animatedModal({color: '#ffffff', modalTarget: 'c2yModal'});
 
 
   // Navbar links
